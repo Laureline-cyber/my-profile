@@ -1,0 +1,190 @@
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/
+a{
+	text-decoration:none;
+}
+
+.txt-rt{text-align:right;}
+.txt-lt{text-align:left;}
+.txt-center{text-align:center;}
+.float-lt{float:left;}
+.clear{clear:both;}
+.pos-relative{position:relative;}
+.pos-absolute{position:absolute;}
+.vertical-base{vertical-align:baseline;}
+.vertical-top{vertical-align:top;}
+
+nav.vertical ul li{	display:block;}
+nav.horizontal ul li{	display: inline-block;}
+
+img{max-width:100%;}
+
+@font-face {
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+
+}
+.wrap{
+	width:80%;
+	margin:0 auto;
+}
+.content {
+	margin-top: 72px;
+}
+.header{
+	background: #FFFFFF;
+	border-bottom: 5px solid rgba(192, 192, 192, 0.31);
+	position: fixed;
+	top: 0px;
+	z-index: 5;
+	opacity: 0.97;
+	width:100%;
+}
+.Lauré{
+	float:left;
+	font-family: 'Raleway', sans-serif;
+}
+.Lauré a{
+	color: #2a323a;
+	text-transform: uppercase;
+	font-size: 24px;
+	display: block;
+	padding: 20px;
+}
+.top-nav{
+	float:right;
+}
+.top-nav ul li{
+	display:inline-block;
+}
+.top-nav ul li a{
+	font-family: 'Raleway', sans-serif;
+	color: #2a323a;
+	padding: 20px;
+	display: block;
+	text-transform: uppercase;
+	transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+}
+.top-nav li.active> a, .top-nav li> a:hover{
+	border-top: 5px solid #665cbe;
+	color: #665cbe;
+}
+.laureline{
+	background:#665cbe;
+	text-align:center;
+	padding: 50px 0px;
+}
+.laureline h3{
+	font-family: 'Indie Flower', cursive; 
+	color: #FFF;
+	font-size: 2.5em;
+	line-height: 2.5em;
+}
+.laureline img{
+	background:#fff;
+	padding:3px;
+	border-radius: 50%;
+}
+.laureline p{
+	font-family: 'Indie Flower', cursive;
+	width: 57%;
+	margin:0 auto;
+	color:#FFF;
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+.competences h3{
+	font-family: 'Indie Flower', cursive;
+	color: #2A323A;
+	font-size: 2.2em;
+}
+.competences p{
+	font-family: 'Raleway', sans-serif;
+	color: #2A323A;
+	font-size: 1.4em;
+	line-height: 1.5em;
+	padding-bottom: 10px;
+}
+.competences{
+	text-align:center;
+	padding: 55px 0px;
+
+}
+.experiences{
+	background:#F5F5F5;
+	padding: 55px 0px;
+}
+.experiences-header{
+	text-align: center;
+	border-bottom: 1px solid rgba(192, 192, 192, 0.44);
+	width: 66%;
+	margin: 0 auto;
+}
+.experiences-header h3{
+	font-family: 'Indie Flower', cursive;
+	color: #2A323A;
+	font-size: 2.3em;
+	padding-bottom: 1px;
+}
+.experiences-header p{
+	font-family: 'Raleway', sans-serif;
+	color: #2A323A;
+	font-size: 1.4em;
+	line-height: 1.1em;
+	padding-bottom: 20px;
+}
+.voyages h3{
+	font-family: 'Indie Flower', cursive;
+	color: white;
+	font-size: 2.2em;
+	padding-bottom: 6px;
+}
+.voyages {
+	font-family: 'Raleway', sans-serif;
+	background: #665cbe;
+	text-align: center;
+	padding: 55px 0px;
+	color: white;
+	font-size: 1.4em;
+}
+.trips {
+	display: flex;
+	width: 800px;
+	margin: 30px auto;
+	justify-content: center;
+}
+.sub-trip {
+	width: 60%;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+.date {
+	font-family: 'Indie Flower', cursive;
+
+}
+.réseaux h3{
+	font-family: 'Raleway', sans-serif;
+	color: #2A323A;
+	font-size: 2.2em;
+}
+.réseaux p{
+	font-family: 'Raleway', sans-serif;
+	color: #2A323A;
+	font-size: 1.4em;
+	line-height: 1.1em;
+	padding-bottom: 5px;
+}
+.réseaux{
+	text-align:center;
+	padding: 55px 0px;  
+}
+
